@@ -1,0 +1,6 @@
+
+reissue latency:	6
+iadd latency:		18
+ld.sm.32 raw latency:	26
+ld.sm.64 raw latency:	38
+ld.sm.128 raw latency:	46

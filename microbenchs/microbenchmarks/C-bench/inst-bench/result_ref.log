@@ -1,0 +1,246 @@
+Running (16 x 16 x 16) blocks of 512 empty threads...done
+Running pipeline tests...
+
+Running (16 x 16 x 16) blocks of 512 empty threads: 18547.974 ms
+
+Running clock() test...
+kclock: 
+   (21925728, 21925752): 24
+
+
+kclock_test2: [10 blocks, 1 thread(s)/block]
+kclock_test2: [30 blocks, 1 thread(s)/block]
+  Block 00: start: 21941560, stop: 21943876
+  Block 01: start: 21944738, stop: 21947054
+  Block 02: start: 21944870, stop: 21947186
+  Block 03: start: 21941570, stop: 21943886
+  Block 04: start: 21944748, stop: 21947064
+  Block 05: start: 21944880, stop: 21947196
+  Block 06: start: 21941570, stop: 21943886
+  Block 07: start: 21944748, stop: 21947064
+  Block 08: start: 21944880, stop: 21947196
+  Block 09: start: 21941578, stop: 21943894
+
+  Block 00: start: 21948132, stop: 21950448
+  Block 10: start: 21951480, stop: 21953796
+  Block 20: start: 21951306, stop: 21953622
+  Block 01: start: 21948144, stop: 21950460
+  Block 11: start: 21951544, stop: 21953860
+  Block 21: start: 21951478, stop: 21953794
+  Block 02: start: 21948148, stop: 21950464
+  Block 12: start: 21948130, stop: 21950446
+  Block 22: start: 21951364, stop: 21953680
+  Block 03: start: 21948158, stop: 21950474
+  Block 13: start: 21948138, stop: 21950454
+  Block 23: start: 21951546, stop: 21953862
+  Block 04: start: 21951294, stop: 21953610
+  Block 14: start: 21948142, stop: 21950458
+  Block 24: start: 21948128, stop: 21950444
+  Block 05: start: 21951306, stop: 21953622
+  Block 15: start: 21948156, stop: 21950472
+  Block 25: start: 21951298, stop: 21953614
+  Block 06: start: 21951308, stop: 21953624
+  Block 16: start: 21951288, stop: 21953604
+  Block 26: start: 21951470, stop: 21953786
+  Block 07: start: 21951366, stop: 21953682
+  Block 17: start: 21951460, stop: 21953776
+  Block 27: start: 21948148, stop: 21950464
+  Block 08: start: 21951466, stop: 21953782
+  Block 18: start: 21951300, stop: 21953616
+  Block 28: start: 21951310, stop: 21953626
+  Block 09: start: 21951478, stop: 21953794
+  Block 19: start: 21951472, stop: 21953788
+  Block 29: start: 21951482, stop: 21953798
+
+
+  K_ADD_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_RSQRT_FLOAT_DEP128 	latency:    	5640 clk (22.031 clk/warp)
+  K_ADD_DOUBLE_DEP128 	latency:    	5640 clk (22.031 clk/warp)
+
+  K_ADD_UINT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_RSQRT_FLOAT_DEP128 	throughput:	    32742 clk (4.003 ops/clk)
+  K_ADD_DOUBLE_DEP128 	throughput:	     8246 clk (15.895 ops/clk)
+
+  K_ADD_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_SUB_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_MAD_UINT_DEP128 	latency:    	5130 clk (20.039 clk/warp)
+  K_MUL_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_DIV_UINT_DEP128 	latency:    	86546 clk (338.070 clk/warp)
+  K_REM_UINT_DEP128 	latency:    	91154 clk (356.070 clk/warp)
+  K_MIN_UINT_DEP128 	latency:    	9228 clk (36.047 clk/warp)
+  K_MAX_UINT_DEP128 	latency:    	9228 clk (36.047 clk/warp)
+  K_ADD_UINT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_SUB_UINT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_MAD_UINT_DEP128 	throughput:	     8224 clk (15.938 ops/clk)
+  K_MUL_UINT_DEP128 	throughput:	     8224 clk (15.938 ops/clk)
+  K_DIV_UINT_DEP128 	throughput:	   104176 clk (1.258 ops/clk)
+  K_REM_UINT_DEP128 	throughput:	   110948 clk (1.181 ops/clk)
+  K_MIN_UINT_DEP128 	throughput:	     9280 clk (14.124 ops/clk)
+  K_MAX_UINT_DEP128 	throughput:	     9286 clk (14.115 ops/clk)
+
+  K_ADD_INT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_SUB_INT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_MAD_INT_DEP128 	latency:    	5130 clk (20.039 clk/warp)
+  K_MUL_INT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_DIV_INT_DEP128 	latency:    	100882 clk (394.070 clk/warp)
+  K_REM_INT_DEP128 	latency:    	106002 clk (414.070 clk/warp)
+  K_MIN_INT_DEP128 	latency:    	9228 clk (36.047 clk/warp)
+  K_MAX_INT_DEP128 	latency:    	9228 clk (36.047 clk/warp)
+  K_ABS_INT_DEP128 	latency:    	9228 clk (36.047 clk/warp)
+  K_ADD_INT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_SUB_INT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_MAD_INT_DEP128 	throughput:	     8224 clk (15.938 ops/clk)
+  K_MUL_INT_DEP128 	throughput:	     8228 clk (15.930 ops/clk)
+  K_DIV_INT_DEP128 	throughput:	   139778 clk (0.938 ops/clk)
+  K_REM_INT_DEP128 	throughput:	   140176 clk (0.935 ops/clk)
+  K_MIN_INT_DEP128 	throughput:	     9280 clk (14.124 ops/clk)
+  K_MAX_INT_DEP128 	throughput:	     9286 clk (14.115 ops/clk)
+  K_ABS_INT_DEP128 	throughput:	     9304 clk (14.088 ops/clk)
+
+  K_ADD_FLOAT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_SUB_FLOAT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_MAD_FLOAT_DEP128 	latency:    	5130 clk (20.039 clk/warp)
+  K_MUL_FLOAT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_DIV_FLOAT_DEP128 	latency:    	22536 clk (88.031 clk/warp)
+  K_MIN_FLOAT_DEP128 	latency:    	9228 clk (36.047 clk/warp)
+  K_MAX_FLOAT_DEP128 	latency:    	9228 clk (36.047 clk/warp)
+  K_ADD_FLOAT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_SUB_FLOAT_DEP128 	throughput:	     4666 clk (28.091 ops/clk)
+  K_MAD_FLOAT_DEP128 	throughput:	     5368 clk (24.417 ops/clk)
+  K_MUL_FLOAT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_DIV_FLOAT_DEP128 	throughput:	    32898 clk (3.984 ops/clk)
+  K_MIN_FLOAT_DEP128 	throughput:	     9280 clk (14.124 ops/clk)
+  K_MAX_FLOAT_DEP128 	throughput:	     9284 clk (14.118 ops/clk)
+
+  K_ADD_DOUBLE_DEP128 	latency:    	5640 clk (22.031 clk/warp)
+  K_SUB_DOUBLE_DEP128 	latency:    	5640 clk (22.031 clk/warp)
+  K_MAD_DOUBLE_DEP128 	latency:    	5640 clk (22.031 clk/warp)
+  K_MUL_DOUBLE_DEP128 	latency:    	5640 clk (22.031 clk/warp)
+  K_DIV_DOUBLE_DEP128 	latency:    	158862 clk (620.555 clk/warp)
+  K_MIN_DOUBLE_DEP128 	latency:    	11272 clk (44.031 clk/warp)
+  K_MAX_DOUBLE_DEP128 	latency:    	11272 clk (44.031 clk/warp)
+  K_ADD_DOUBLE_DEP128 	throughput:	     8242 clk (15.903 ops/clk)
+  K_SUB_DOUBLE_DEP128 	throughput:	     8242 clk (15.903 ops/clk)
+  K_MAD_DOUBLE_DEP128 	throughput:	     8250 clk (15.888 ops/clk)
+  K_MUL_DOUBLE_DEP128 	throughput:	     8248 clk (15.891 ops/clk)
+  K_DIV_DOUBLE_DEP128 	throughput:	   218128 clk (0.601 ops/clk)
+  K_MIN_DOUBLE_DEP128 	throughput:	    16446 clk (7.970 ops/clk)
+  K_MAX_DOUBLE_DEP128 	throughput:	    16446 clk (7.970 ops/clk)
+
+  K_AND_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_OR_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_XOR_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_SHL_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_SHR_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_AND_UINT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_OR_UINT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_XOR_UINT_DEP128 	throughput:	     4664 clk (28.103 ops/clk)
+  K_SHL_UINT_DEP128 	throughput:	     8240 clk (15.907 ops/clk)
+  K_SHR_UINT_DEP128 	throughput:	     8242 clk (15.903 ops/clk)
+
+  K_UMUL24_UINT_DEP128 	latency:    	9234 clk (36.070 clk/warp)
+  K_MUL24_INT_DEP128 	latency:    	9234 clk (36.070 clk/warp)
+  K_UMULHI_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_MULHI_INT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_USAD_UINT_DEP128 	latency:    	5130 clk (20.039 clk/warp)
+  K_SAD_INT_DEP128 	latency:    	5130 clk (20.039 clk/warp)
+  K_UMUL24_UINT_DEP128 	throughput:	     9324 clk (14.057 ops/clk)
+  K_MUL24_INT_DEP128 	throughput:	     9334 clk (14.042 ops/clk)
+  K_UMULHI_UINT_DEP128 	throughput:	     8224 clk (15.938 ops/clk)
+  K_MULHI_INT_DEP128 	throughput:	     8228 clk (15.930 ops/clk)
+  K_USAD_UINT_DEP128 	throughput:	     8244 clk (15.899 ops/clk)
+  K_SAD_INT_DEP128 	throughput:	     8246 clk (15.895 ops/clk)
+
+  K_FADD_RN_FLOAT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_FADD_RZ_FLOAT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_FMUL_RN_FLOAT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_FMUL_RZ_FLOAT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_FDIVIDEF_FLOAT_DEP128 	latency:    	10252 clk (40.047 clk/warp)
+  K_FADD_RN_FLOAT_DEP128 	throughput:	     4662 clk (28.115 ops/clk)
+  K_FADD_RZ_FLOAT_DEP128 	throughput:	     4666 clk (28.091 ops/clk)
+  K_FMUL_RN_FLOAT_DEP128 	throughput:	     4664 clk (28.103 ops/clk)
+  K_FMUL_RZ_FLOAT_DEP128 	throughput:	     4664 clk (28.103 ops/clk)
+  K_FDIVIDEF_FLOAT_DEP128 	throughput:	    32816 clk (3.994 ops/clk)
+
+  K_DADD_RN_DOUBLE_DEP128 	latency:    	5640 clk (22.031 clk/warp)
+  K_DADD_RN_DOUBLE_DEP128 	throughput:	     8248 clk (15.891 ops/clk)
+
+  K_RCP_FLOAT_DEP128 	latency:    	10252 clk (40.047 clk/warp)
+  K_SQRT_FLOAT_DEP128 	latency:    	11272 clk (44.031 clk/warp)
+  K_RSQRT_FLOAT_DEP128 	latency:    	5640 clk (22.031 clk/warp)
+  K_RCP_FLOAT_DEP128 	throughput:	    32814 clk (3.994 ops/clk)
+  K_SQRT_FLOAT_DEP128 	throughput:	    65510 clk (2.001 ops/clk)
+  K_RSQRT_FLOAT_DEP128 	throughput:	    32742 clk (4.003 ops/clk)
+
+  K_SINF_FLOAT_DEP128 	latency:    	10248 clk (40.031 clk/warp)
+  K_COSF_FLOAT_DEP128 	latency:    	10248 clk (40.031 clk/warp)
+  K_TANF_FLOAT_DEP128 	latency:    	20492 clk (80.047 clk/warp)
+  K_EXPF_FLOAT_DEP128 	latency:    	14856 clk (58.031 clk/warp)
+  K_EXP2F_FLOAT_DEP128 	latency:    	10248 clk (40.031 clk/warp)
+  K_EXP10F_FLOAT_DEP128 	latency:    	14856 clk (58.031 clk/warp)
+  K_LOGF_FLOAT_DEP128 	latency:    	10252 clk (40.047 clk/warp)
+  K_LOG2F_FLOAT_DEP128 	latency:    	5640 clk (22.031 clk/warp)
+  K_LOG10F_FLOAT_DEP128 	latency:    	10252 clk (40.047 clk/warp)
+  K_POWF_FLOAT_DEP128 	latency:    	14878 clk (58.117 clk/warp)
+  K_SINF_FLOAT_DEP128 	throughput:	    32770 clk (4.000 ops/clk)
+  K_COSF_FLOAT_DEP128 	throughput:	    32768 clk (4.000 ops/clk)
+  K_TANF_FLOAT_DEP128 	throughput:	    98448 clk (1.331 ops/clk)
+  K_EXPF_FLOAT_DEP128 	throughput:	    32802 clk (3.996 ops/clk)
+  K_EXP2F_FLOAT_DEP128 	throughput:	    32768 clk (4.000 ops/clk)
+  K_EXP10F_FLOAT_DEP128 	throughput:	    32802 clk (3.996 ops/clk)
+  K_LOGF_FLOAT_DEP128 	throughput:	    32816 clk (3.994 ops/clk)
+  K_LOG2F_FLOAT_DEP128 	throughput:	    32742 clk (4.003 ops/clk)
+  K_LOG10F_FLOAT_DEP128 	throughput:	    32816 clk (3.994 ops/clk)
+  K_POWF_FLOAT_DEP128 	throughput:	    65578 clk (1.999 ops/clk)
+
+  K_INTASFLOAT_UINT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_FLOATASINT_FLOAT_DEP128 	latency:    	4620 clk (18.047 clk/warp)
+  K_INTASFLOAT_UINT_DEP128 	throughput:	     8222 clk (15.942 ops/clk)
+  K_FLOATASINT_FLOAT_DEP128 	throughput:	     8232 clk (15.922 ops/clk)
+
+  K_POPC_UINT_DEP128 	latency:    	53004 clk (207.047 clk/warp)
+  K_CLZ_UINT_DEP128 	latency:    	26644 clk (104.078 clk/warp)
+
+  K_POPC_UINT_DEP128 	throughput:	    59146 clk (2.216 ops/clk)
+  K_CLZ_UINT_DEP128 	throughput:	    33492 clk (3.914 ops/clk)
+
+  K_ALL_UINT_DEP128 	latency:    	12336 clk (48.188 clk/warp)
+  K_ANY_UINT_DEP128 	latency:    	12336 clk (48.188 clk/warp)
+
+  K_ALL_UINT_DEP128 	throughput:	    16488 clk (7.950 ops/clk)
+  K_ANY_UINT_DEP128 	throughput:	    16494 clk (7.947 ops/clk)
+
+
+Pipeline latency/throughput with multiple warps (200 iterations of 256 ops)
+  K_ADD_UINT_DEP128:
+     1 warp  (  1 thr)    924000 clk (18.047 clk/warp, 0.055 ops/clk)   Histogram { (18: 200) }
+     1 warp  (  2 thr)    924000 clk (18.047 clk/warp, 0.111 ops/clk)   Histogram { (18: 200) }
+     1 warp  (  3 thr)    924000 clk (18.047 clk/warp, 0.166 ops/clk)   Histogram { (18: 200) }
+     1 warp  (  4 thr)    924000 clk (18.047 clk/warp, 0.222 ops/clk)   Histogram { (18: 200) }
+     1 warp  (  6 thr)    924000 clk (18.047 clk/warp, 0.332 ops/clk)   Histogram { (18: 200) }
+     1 warp  (  8 thr)    924000 clk (18.047 clk/warp, 0.443 ops/clk)   Histogram { (18: 200) }
+     1 warp  ( 16 thr)    924000 clk (18.047 clk/warp, 0.887 ops/clk)   Histogram { (18: 200) }
+     1 warp  ( 24 thr)    924000 clk (18.047 clk/warp, 1.330 ops/clk)   Histogram { (18: 200) }
+     1 warp  ( 32 thr)    924000 clk (18.047 clk/warp, 1.773 ops/clk)   Histogram { (18: 200) }
+     2 warps ( 64 thr)    924000 clk (18.047 clk/warp, 3.546 ops/clk)   Histogram { (18: 400) }
+     3 warps ( 96 thr)    924400 clk (18.047 clk/warp, 5.317 ops/clk)   Histogram { (18: 600) }
+     4 warps (128 thr)    924800 clk (18.051 clk/warp, 7.087 ops/clk)   Histogram { (18: 800) }
+     5 warps (160 thr)    925600 clk (18.056 clk/warp, 8.850 ops/clk)   Histogram { (18: 1000) }
+     6 warps (192 thr)    926000 clk (18.059 clk/warp, 10.616 ops/clk)   Histogram { (18: 1200) }
+     7 warps (224 thr)    926800 clk (18.061 clk/warp, 12.375 ops/clk)   Histogram { (18: 1400) }
+     8 warps (256 thr)    926800 clk (18.062 clk/warp, 14.142 ops/clk)   Histogram { (18: 1600) }
+     9 warps (288 thr)    928400 clk (18.071 clk/warp, 15.883 ops/clk)   Histogram { (18: 1800) }
+    10 warps (320 thr)    928402 clk (18.076 clk/warp, 17.648 ops/clk)   Histogram { (18: 2000) }
+    11 warps (352 thr)    928800 clk (18.082 clk/warp, 19.404 ops/clk)   Histogram { (18: 2200) }
+    12 warps (384 thr)    929016 clk (18.085 clk/warp, 21.163 ops/clk)   Histogram { (18: 2400) }
+    13 warps (416 thr)    930806 clk (18.101 clk/warp, 22.883 ops/clk)   Histogram { (18: 2600) }
+    14 warps (448 thr)    931048 clk (18.107 clk/warp, 24.636 ops/clk)   Histogram { (18: 2800) }
+    15 warps (480 thr)    932196 clk (18.119 clk/warp, 26.364 ops/clk)   Histogram { (18: 3000) }
+    16 warps (512 thr)    932684 clk (18.132 clk/warp, 28.106 ops/clk)   Histogram { (18: 3200) }
+
+
+Trying various combinations of MUL and MAD to test dual issue:
+  K_MUL_FLOAT_DEP128 	throughput:	     4664 clk (28.103 ops/clk)
+  K_MAD_FLOAT_DEP128 	throughput:	     5368 clk (24.417 ops/clk)
+  KMAD_MUL 	throughput:	     4146 clk (31.614 ops/clk)
+

@@ -1,0 +1,32 @@
+excution time of 4 identical instrucions...
+
+total warps: 1
+iadd excution time: 30
+fadd excution time: 30
+dmul excution time: 30
+dfma excution time: 30
+
+total warps: 2
+iadd excution time: 30
+fadd excution time: 30
+dmul excution time: 30
+dfma excution time: 30
+
+total warps: 4
+iadd excution time: 32
+fadd excution time: 32
+dmul excution time: 32
+dfma excution time: 32
+
+total warps: 8
+iadd excution time: 52
+fadd excution time: 48
+dmul excution time: 70
+dfma excution time: 70
+
+total warps: 16
+iadd excution time: 106
+fadd excution time: 100
+dmul excution time: 156
+dfma excution time: 162
+

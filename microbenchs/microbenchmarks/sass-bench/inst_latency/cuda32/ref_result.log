@@ -1,0 +1,15 @@
+instruction latency info:
+reissue				6
+iadd				18
+dfma				24
+branch				50
+ld smem128 raw			46
+ld smem128 war			46
+st smem128 raw			42
+st smem128 war			42
+ld gmem128 raw L2 cache bypass	334
+ld gmem128 raw L2 cache hit	342
+ld gmem128 war			46
+
+/** NOTE: ld gmem raw latency in case of L2 cache bypass
+ is somehow not reasonable in cuda3.2 environment. **/

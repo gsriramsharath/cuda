@@ -1,0 +1,93 @@
+  MOV  R40, d_res_lo;
+  MOV  R41, d_res_hi;
+  S2R  R39, SR48;  // smem base
+  S2R  R42, SR33;  // threadIdx
+  IMUL R42, R42, 4;
+  IADD R43, R42, R39;
+  IMUL R42, R42, 2;
+  IADD R44, R42, R39;
+  IMUL R42, R42, 2;
+  IADD R45, R42, R39;
+  MOV  R46, R45;   //
+  MOV  R47, R44;   //
+
+  S2R  R0, SR80;
+  IADD R62, R61, R62;
+  IADD R61, R62, R61;
+  S2R  R0, SR80;
+  S2R  R0, SR80;
+  S2R  R0, SR80;
+  S2R  R0, SR80;
+  S2R  R1, SR80;
+  IADD R10, R1, -R0;
+
+  S2R  R1, SR80;
+  S2R  R1, SR80;
+  S2R  R1, SR80;
+  S2R  R1, SR80;
+  IADD R20, R45, R46;
+  MOV  R21, R20;
+  S2R  R2, SR80;
+  IADD R11, R2, -R1;
+
+  S2R  R2, SR80;
+  S2R  R2, SR80;
+  S2R  R2, SR80;
+  S2R  R2, SR80;
+  LD.32 R22, [R43+0];
+  MOV   R23, R22;
+  S2R  R3, SR80;
+  IADD R12, R3, -R2;
+
+  S2R  R3, SR80;
+  S2R  R3, SR80;
+  S2R  R3, SR80;
+  S2R  R3, SR80;
+  LD.64 R26, [R47+512];
+  MOV  R24, R26; 
+  S2R  R4, SR80;
+  IADD R13, R4, -R3;
+ 
+  S2R  R4, SR80;
+  S2R  R4, SR80;
+  S2R  R4, SR80;
+  S2R  R4, SR80;
+  LD.128 R28, [R45+512];
+  MOV  R25, R28;
+  S2R  R5, SR80;
+  IADD R14, R5, -R4;
+
+  S2R  R5, SR80;
+  S2R  R5, SR80;
+  S2R  R5, SR80;
+  S2R  R5, SR80;
+// do something
+  S2R  R6, SR80;
+  IADD R15, R6, -R5;
+
+  S2R  R6, SR80;
+  S2R  R6, SR80;
+  S2R  R6, SR80;
+  S2R  R6, SR80;
+// do something
+  S2R  R7, SR80;
+  IADD R16, R7, -R6;
+
+  S2R  R7, SR80;
+  S2R  R7, SR80;
+  S2R  R7, SR80;
+  S2R  R7, SR80;
+// do something
+  S2R  R8, SR80;
+  IADD R17, R8, -R7;
+
+  ST.E.32   [R40+0],  R10;
+  ST.E.32   [R40+4],  R11;
+  ST.E.32   [R40+8],  R12;
+  ST.E.32   [R40+12], R13;
+  ST.E.32   [R40+16], R14;
+  ST.E.32   [R40+20], R15;
+  ST.E.32   [R40+24], R16;
+  ST.E.32   [R40+28], R17;
+
+  EXIT;
